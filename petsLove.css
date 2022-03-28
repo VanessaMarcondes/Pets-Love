@@ -12,13 +12,17 @@ html, body {
     overflow-x: hidden;
 }
 h1{
+    padding: 1px;
+    font-size: 36px;
    color: #D2691E;
     font-family:inherit;
-    margin: 1%;
+    margin: 50px 0;
+    text-align: center;
+    justify-content: center;
 }
 h1:hover{
-  color:coral;
-  font-size:35px;
+  color:brown;
+  font-size:37px;
   }
 
 h2{
@@ -26,21 +30,22 @@ h2{
     text-align: center;
     margin: 16px;
     height: 20px;
-    
+    font-family:sans-serif ;
 }
 
 img{
     border-radius: 100px;
-    width: 100px;
+    width: 150px;
+
 }
 
 header{
     height: 200px;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     align-items:flex-start ;
 }
- 
+
 .meio{
 display: flex;
 flex-wrap: wrap;
@@ -74,8 +79,13 @@ padding: 0 1%;
     background-color: #D2691E;
 }
 
+a:hover{
+    color: brown;
+}
+
 a{
- font-size:x-large;
+margin: 25px 0;
+ font-size:32px;
  font-family:monospace;
  
 }
@@ -90,12 +100,16 @@ a{
 }
 
 .flex-item{
+    background-color:#D2691E;
     border: 9px solid #D2691E;
     border-radius: 30px;
-    width: 200px;
-    height: 350px;
+    width: 250px;
+    height: 355px;
     padding: 10px;
-    margin: 20px  20px 40px;
+    margin: 20px 60px;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 footer{
@@ -121,7 +135,22 @@ nav{
         border-radius: 10px;
         text-decoration: none;
     }
+    p{
+        text-align: center;
+    }
 }
+
 ul{
     display: flex;
+}
+
+p{
+    padding: 20px;
+    background-color: #D2691E;
+    font-family:sans-serif;
+    font-size: larger;
+}
+
+.foto{
+     margin: 10px 20px;
 }
